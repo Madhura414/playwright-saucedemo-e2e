@@ -7,7 +7,8 @@
     "test:headed": "playwright test --headed",
     "test:ui": "playwright test --ui",
     "report": "playwright show-report",
-    "postinstall": "npx playwright install"
+    "postinstall": "npx playwright install",
+    "check-out-flow": "npx Playwright test checkout-flow.spec.js --project=chromium --headed" 
   },
   "devDependencies": {
     "@playwright/test": "^1.47.0"
